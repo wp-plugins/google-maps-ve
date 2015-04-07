@@ -46,3 +46,10 @@ See detailed overview about [Google Maps Ve PRO Version](http://wordpress.veebie
 = How do I get PRO version? =
 
 Visit http://wordpress.veebiekspert.ee - Free updates forever.
+
+== Screenshots ==
+
+1. Mix of free and PRO versions.
+2. Maps list in wp-admin.
+3. Map basic settings.
+4. Marker basic settings.
