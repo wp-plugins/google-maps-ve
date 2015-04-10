@@ -53,3 +53,5 @@ Visit http://wordpress.veebiekspert.ee - Free updates forever.
 2. Maps list in wp-admin.
 3. Map basic settings.
 4. Marker basic settings.
+5. PRO version editor button.
+6. Override map settings for post or page only.
