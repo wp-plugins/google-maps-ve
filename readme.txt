@@ -19,6 +19,8 @@ In PRO version is also support for widgets and a lot of more features.
 
 See detailed overview about [Google Maps Ve PRO Version](http://wordpress.veebiekspert.ee)
 
+[youtube https://youtu.be/HfMk4M52P-4]
+
 = Free Version =
 * Unlimited maps
 * Unlimited markers, polyons and polylines
