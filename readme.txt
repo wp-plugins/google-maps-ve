@@ -19,7 +19,7 @@ In PRO version is also support for widgets and a lot of more features.
 
 See detailed overview about [Google Maps Ve PRO Version](http://wordpress.veebiekspert.ee)
 
-[youtube http://youtu.be/HfMk4M52P-4]
+[youtube https://www.youtube.com/watch?v=HfMk4M52P-4]
 
 = Free Version =
 * Unlimited maps
