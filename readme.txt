@@ -11,7 +11,7 @@ NEW PLUGIN! Very powerful plugin for creating Google Maps. Easy to use and no pr
 
 == Description ==
 
-Very powerful plugin for creating Google Maps. Easy to use and no programmer skills required. Create maps in seconds.
+NEW PLUGIN! Very powerful plugin for creating Google Maps. Easy to use and no programmer skills required. Create maps in seconds.
 
 Add unlimited count maps, markers, polygons and polylines. 
 
