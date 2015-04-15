@@ -7,7 +7,7 @@ Tested up to: 4.1.1
 Stable tag: trunk
 License: GPLv2
 
-Very powerful plugin for creating Google Maps. Easy to use and no programmer skills required. Create maps in seconds.
+NEW PLUGIN! Very powerful plugin for creating Google Maps. Easy to use and no programmer skills required. Create maps in seconds.
 
 == Description ==
 
