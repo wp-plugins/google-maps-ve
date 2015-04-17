@@ -69,21 +69,38 @@ $map = $google_maps_ve->getApp()->getMap($mapId); //$mapId is post ID
 = How can I get markers, polygons and polylines by programmatical? =
 
 global $google_maps_ve;
+
 $markers = get_posts(array('post_type' => 'gmaps_marker_ve'));
+
 $polygons = get_posts(array('post_type' => 'gmaps_polygon_ve'));
+
 $polylines = get_posts(array('post_type' => 'gmaps_polyline_ve'));
 
+
 $markers = $google_maps_ve->getApp()->getMapMarkers($map->ID);
+
 foreach ($markers as $marker) {
+
 	$detailedMarker = $google_maps_ve->getApp()->getMapMarker($marker->ID);
+	
 }
+
+
 $polygons = $google_maps_ve->getApp()->getMapPolygons($map->ID);
+
 foreach ($polygons as $polygon) {
+
 	$detailedPolygon = $google_maps_ve->getApp()->getMapPolygon($polygon->ID);
+	
 }
+
+
 $polylines = $google_maps_ve->getApp()->getMapPolylines($map->ID);
+
 foreach ($polylines as $polyline) {
+
 	$detailedPolyline = $google_maps_ve->getApp()->getMapPolyline($polyline->ID);
+	
 }
 
 = Where can I find custom map icons? =
