@@ -7,7 +7,7 @@ Tested up to: 4.1.1
 Stable tag: trunk
 License: GPLv2
 
-Very powerful plugin for creating Google Maps. Easy to use and no programmer skills required. There is no limit for maps, markers, polygons or polylines count.
+Very powerful plugin for creating Google Maps. Easy to use and no programmer skills required. There is no limit for maps and markers count.
 
 == Description ==
 
