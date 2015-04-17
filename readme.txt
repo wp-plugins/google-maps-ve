@@ -62,45 +62,46 @@ For example you can use Polylang module and enable custom post types in Polylang
 
 = How can I get maps by programmatical? =
 
+`<?php 
+// global variable for google maps object
 global $google_maps_ve;
+
 $maps = get_posts(array('post_type' => 'gmaps_map_ve'));
-$map = $google_maps_ve->getApp()->getMap($mapId); //$mapId is post ID
+
+foreach ($maps as $map) {
+	$map = $google_maps_ve->getApp()->getMap($map->ID); // see what you can do with map in next question
+}
+?>`
 
 = How can I get markers, polygons and polylines by programmatical? =
 
-`<?php global $google_maps_ve;
+`<?php 
+// global variable for google maps object
+global $google_maps_ve;
 
+// get array with function get_posts()
 $markers = get_posts(array('post_type' => 'gmaps_marker_ve'));
-
 $polygons = get_posts(array('post_type' => 'gmaps_polygon_ve'));
-
 $polylines = get_posts(array('post_type' => 'gmaps_polyline_ve'));
 
-
+// get array with google maps object
 $markers = $google_maps_ve->getApp()->getMapMarkers($map->ID);
-
-foreach ($markers as $marker) {
-
-	$detailedMarker = $google_maps_ve->getApp()->getMapMarker($marker->ID);
-	
-}
-
-
 $polygons = $google_maps_ve->getApp()->getMapPolygons($map->ID);
-
-foreach ($polygons as $polygon) {
-
-	$detailedPolygon = $google_maps_ve->getApp()->getMapPolygon($polygon->ID);
-	
-}
-
-
 $polylines = $google_maps_ve->getApp()->getMapPolylines($map->ID);
 
-foreach ($polylines as $polyline) {
+// do something with markers
+foreach ($markers as $marker) {
+	$detailedMarker = $google_maps_ve->getApp()->getMapMarker($marker->ID);
+}
 
+// do something with polygons
+foreach ($polygons as $polygon) {
+	$detailedPolygon = $google_maps_ve->getApp()->getMapPolygon($polygon->ID);
+}
+
+// do something with polylines
+foreach ($polylines as $polyline) {
 	$detailedPolyline = $google_maps_ve->getApp()->getMapPolyline($polyline->ID);
-	
 }
 ?>`
 
