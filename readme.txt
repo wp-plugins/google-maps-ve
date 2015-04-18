@@ -41,14 +41,24 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Visitor based coordinates
 * Polylang and another plugins support
 * Wordpress core functionality
+* Street view supported
+* Maps are rendered by the latest Google maps API v3
 * INSTALL AND INVESTIGATE more features
 
 = Pro Version =
 * Filter module
 * Directions module
-* List module
+* Markers list module
 * Carousel list
 * Widgets for all modules
+* Editor tool to generate shortcode into post or page
+* Infowindows
+* Links and images in infowindow
+* Custom marker icon
+* Custom marker parameters
+* Insert addons above or below map
+* Duplicate maps
+
 
 == Frequently Asked Questions ==
 
