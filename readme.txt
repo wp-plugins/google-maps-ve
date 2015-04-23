@@ -3,7 +3,7 @@ Contributors: Veebiekspert
 Donate link: http://wordpress.veebiekspert.ee
 Tags: google maps, maps, map, map markers, google, google map, easy map, store locator, map plugin, directions, map directions, google map plugin, polygons, polylines, streetview, location, marker, latitude, longitude, map widget, widget
 Requires at least: 3.5
-Tested up to: 4.1.2
+Tested up to: 4.2
 Stable tag: trunk
 License: GPLv2
 
