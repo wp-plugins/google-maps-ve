@@ -6,7 +6,7 @@
  */
 /*
 Plugin Name: Google Maps Veebiekspert
-Plugin URI: http://www.veebiekspert.ee
+Plugin URI: http://wordpress.veebiekspert.ee
 Description: Create your google maps
 Author: Priit Elbe
 Version: 1.0
