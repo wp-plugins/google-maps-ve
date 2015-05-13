@@ -2,7 +2,7 @@
 
 /**
  * @package Google Maps Veebiekspert
- * @version 1.0
+ * @version 1.1
  */
 /*
 Plugin Name: Google Maps Veebiekspert
@@ -15,6 +15,9 @@ Author URI: http://www.veebiekspert.ee
 
 
 define('GOOGLE_MAPS_VE_TD', 'google-maps-ve-td');
+
+error_reporting(0);
+ini_set('display_errors', 0);
 
 class Google_Maps_Ve
 {
