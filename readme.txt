@@ -43,6 +43,7 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Wordpress core functionality
 * Street view supported
 * Maps are rendered by the latest Google maps API v3
+* Autocomplete for address
 * INSTALL AND INVESTIGATE more features
 
 = Pro Version =
@@ -59,6 +60,14 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Insert addons above or below map
 * Duplicate maps
 
+== Changelog ==
+
+= 1.0 =
+* Added new plugin to create maps in seconds.
+
+= 1.0.1 =
+* Added autocomplete to address field.
+* Fixed some small bugs
 
 == Frequently Asked Questions ==
 

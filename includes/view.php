@@ -24,7 +24,7 @@ class Google_Maps_Ve_View
         ?>
         <div id="ve-gmap-container" style="width: 100%; height: 400px; margin-bottom: 10px;"></div>
         <span id="ve-map-update-coords" class="button button-primary"><?php _e('Fill map coordinates by current position', GOOGLE_MAPS_VE_TD); ?></span>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
         <script>
         var map;
         var marker;
@@ -64,6 +64,10 @@ class Google_Maps_Ve_View
           ve_load_markers(map);
           ve_load_polygons(map);
           ve_load_polylines(map);
+
+          autocomplete = new google.maps.places.Autocomplete(
+              /** @type {HTMLInputElement} */(document.getElementById('ve-marker-address')),
+              { types: ['geocode'] });
         }
         google.maps.event.addDomListener(window, 'load', initialize);
         
@@ -855,7 +859,7 @@ class Google_Maps_Ve_View
         }
         ?>
         <div id="ve-gmap-container" style="width: 100%; height: 400px; margin-bottom: 10px;"></div>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
         <script>
         var map;
         var marker;
@@ -934,6 +938,9 @@ class Google_Maps_Ve_View
               marker.setAnimation(google.maps.Animation.<?php echo $marker->animation; ?>);
               <?php endif; ?>
           <?php endif; ?>
+          autocomplete = new google.maps.places.Autocomplete(
+                  /** @type {HTMLInputElement} */(document.getElementById('ve-marker-address')),
+                  { types: ['geocode'] });
         }
         google.maps.event.addDomListener(window, 'load', initialize);
         </script>
