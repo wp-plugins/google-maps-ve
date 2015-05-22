@@ -69,6 +69,11 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Added autocomplete to address field.
 * Fixed some small bugs
 
+== Upgrade Notice ==
+
+= 1.0.1 =
+Fixed small bugs and added address autocomplete.
+
 == Frequently Asked Questions ==
 
 = How do I get PRO version? =
