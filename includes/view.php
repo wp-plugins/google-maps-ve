@@ -554,7 +554,7 @@ class Google_Maps_Ve_View
                 <td><img src="<?php echo esc_html($marker->icon); ?>" alt="" /></td>
                 <td>
                     <strong><?php echo esc_html($marker->post_title); ?></strong><br />
-                    <?php echo nl2br($marker->post_content); ?>
+                    <?php echo apply_filters( 'the_content', $marker->post_content ); ?>
                 </td>
                 <td><?php echo esc_html($marker->address); ?></td>
                 <td><a href="javascript:ve_center_map(<?php echo $marker->post_parent; ?>, <?php echo $marker->marker_lat; ?>, <?php echo $marker->marker_long; ?>, 've-gmap-container');"><?php _e('See on map', GOOGLE_MAPS_VE_TD); ?></a></td>
@@ -613,7 +613,7 @@ class Google_Maps_Ve_View
             <tr>
                 <td>
                     <strong><?php echo esc_html($marker->post_title); ?></strong><br />
-                    <?php echo nl2br($marker->post_content); ?>
+                    <?php echo apply_filters( 'the_content', $marker->post_content ); ?>
                 </td>
                 <td><?php if (!empty($polys)): ?><a href="javascript:ve_center_map(<?php echo $marker->post_parent; ?>, <?php echo $polys[0][0]; ?>, <?php echo $polys[0][1]; ?>, 've-gmap-container');"><?php _e('See on map', GOOGLE_MAPS_VE_TD); ?></a><?php endif; ?></td>
                 <td><a href="<?php echo get_edit_post_link($marker->ID); ?>"><?php _e('Edit', GOOGLE_MAPS_VE_TD); ?></a></td>
@@ -906,9 +906,9 @@ class Google_Maps_Ve_View
                   <?php if (!empty($marker->post_content)): ?>
                       contentString += '<div class="ve-gmap-infowindow-description"></div>';
                       <?php if (!empty($marker->thumb)): ?>
-                          contentString += '<table class="ve-gmap-infowindow-table"><tr><td class="description"><?php echo str_replace(array("\n", "\t", "\r"), '', nl2br($marker->post_content)); ?></td><td class="image" style="width: <?php echo $marker->marker_infowindow_thumb_width; ?>px;"><?php echo $marker->thumb; ?></td></tr></table>';
+                          contentString += '<table class="ve-gmap-infowindow-table"><tr><td class="description"><?php echo str_replace(array("\n", "\t", "\r"), '', nl2br(str_replace('\'', "\'", $marker->post_content))); ?></td><td class="image" style="width: <?php echo $marker->marker_infowindow_thumb_width; ?>px;"><?php echo $marker->thumb; ?></td></tr></table>';
                       <?php else: ?>
-                          contentString += '<table class="ve-gmap-infowindow-table"><tr><td class="description"><?php echo str_replace(array("\n", "\t", "\r"), '', nl2br($marker->post_content)); ?></td></tr></table>';
+                          contentString += '<table class="ve-gmap-infowindow-table"><tr><td class="description"><?php echo str_replace(array("\n", "\t", "\r"), '', nl2br(str_replace('\'', "\'", $marker->post_content))); ?></td></tr></table>';
                       <?php endif; ?>
                   
                   <?php elseif (!empty($marker->thumb)): ?>
@@ -1840,7 +1840,7 @@ class Google_Maps_Ve_View
             <tr>
                 <td>
                     <strong><?php echo esc_html($marker->post_title); ?></strong><br />
-                    <?php echo nl2br($marker->post_content); ?>
+                    <?php echo apply_filters( 'the_content', $marker->post_content ); ?>
                 </td>
                 <td><?php if (!empty($polys)): ?><a href="javascript:ve_center_map(<?php echo $marker->post_parent; ?>, <?php echo $polys[0][0]; ?>, <?php echo $polys[0][1]; ?>, 've-gmap-container');"><?php _e('See on map', GOOGLE_MAPS_VE_TD); ?></a><?php endif; ?></td>
                 <td><a href="<?php echo get_edit_post_link($marker->ID); ?>"><?php _e('Edit', GOOGLE_MAPS_VE_TD); ?></a></td>

@@ -69,10 +69,16 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Added autocomplete to address field.
 * Fixed some small bugs
 
+= 1.0.2 =
+* Added html support for marker description field
+
 == Upgrade Notice ==
 
 = 1.0.1 =
 Fixed small bugs and added address autocomplete.
+
+= 1.0.2 =
+Added html support for marker description field
 
 == Frequently Asked Questions ==
 

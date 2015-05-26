@@ -138,7 +138,7 @@ class Google_Maps_Ve_Actions
 
         wp_update_post(array(
             'ID' => $post_id,
-            'post_content' => sanitize_text_field($_POST['marker_description']),
+            'post_content' => $_POST['marker_description'],
         ));
         add_action('save_post', array($this->_google_maps->getAction(), 'save_post_marker'));
         
@@ -183,7 +183,7 @@ class Google_Maps_Ve_Actions
 
         wp_update_post(array(
             'ID' => $post_id,
-            'post_content' => sanitize_text_field($_POST['marker_description']),
+            'post_content' => $_POST['marker_description'],
             'post_parent' => sanitize_text_field($_POST['ve_marker_map']),
         ));
         add_action('save_post', array($this->_google_maps->getAction(), 'save_post_polygon'));
@@ -229,7 +229,7 @@ class Google_Maps_Ve_Actions
 
         wp_update_post(array(
             'ID' => $post_id,
-            'post_content' => sanitize_text_field($_POST['marker_description']),
+            'post_content' => $_POST['marker_description'],
             'post_parent' => sanitize_text_field($_POST['ve_marker_map']),
         ));
         add_action('save_post', array($this->_google_maps->getAction(), 'save_post_polyline'));
