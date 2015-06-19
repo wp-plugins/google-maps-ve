@@ -59,6 +59,7 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Custom marker parameters
 * Insert addons above or below map
 * Duplicate maps
+* Marker description supports Wordpress code editor
 
 == Changelog ==
 
