@@ -60,6 +60,7 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Insert addons above or below map
 * Duplicate maps
 * Marker description supports Wordpress text editor
+* Markers clusterer - show count if there are too many markers on same location
 
 == Changelog ==
 
