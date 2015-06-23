@@ -44,7 +44,6 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Street view supported
 * Maps are rendered by the latest Google maps API v3
 * Autocomplete for address
-* INSTALL AND INVESTIGATE more features
 
 = Pro Version =
 * Filter module
@@ -73,6 +72,8 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 
 = 1.0.2 =
 * Added html support for marker description field
+* Marker description field supports Wordpress text editor in PRO version
+* Markers clusterer in PRO version
 
 == Upgrade Notice ==
 
