@@ -61,6 +61,12 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Marker description supports Wordpress text editor
 * Markers clusterer - show count if there are too many markers on same location
 
+= Translations =
+We are very thankful if you help us to translate plugin to your language.
+
+* English - default
+* Estoninan
+
 == Changelog ==
 
 = 1.0 =
@@ -150,3 +156,17 @@ You can find a lot of icons at url: http://mapicons.nicolasmollet.com/
 4. Marker basic settings.
 5. PRO version editor button.
 6. Override map settings for post or page only.
+
+== Installation ==
+
+= Download and install =
+Login to wp-admin and click Plugins -> Add new. Search by "Google Maps VE" keyword and install it. [Click here to download Google Maps Ve PRO Version](http://wordpress.veebiekspert.ee)
+
+= Create your first map =
+Click on Google Map -> Add new map from left menu. Insert map title and confiugure by your needs. Save map and then you can add markers, polygons and polylines to created map.
+
+= Add map to your page or post =
+In map settings header is box called shortcode. Copy this to your content. In PRO version there is tool for inserting maps to content.
+
+= Add map to your php code =
+`<?php echo do_shortcode('[ve_gmap map="267"]'); ?>`
