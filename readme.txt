@@ -1,7 +1,7 @@
 === Google Maps VE ===
 Contributors: Veebiekspert
 Donate link: http://wordpress.veebiekspert.ee
-Tags: google maps, maps, map, map markers, google, google map, easy map, store locator, map plugin, directions, map directions, google map plugin, polygons, polylines, streetview, location, marker, latitude, longitude, map widget, widget
+Tags: gmaps, custom google maps, clusterer, wp maps, wp google, google maps, maps, map, map markers, google, google map, easy map, store locator, map plugin, directions, map directions, google map plugin, polygons, polylines, streetview, location, marker, latitude, longitude, map widget, widget
 Requires at least: 3.5
 Tested up to: 4.2
 Stable tag: trunk
@@ -27,7 +27,7 @@ See detailed overview about [Google Maps Ve PRO Version](http://wordpress.veebie
 
 https://www.youtube.com/watch?v=HfMk4M52P-4
 
-= Free Version =
+= Google maps free Version =
 * Unlimited maps
 * Unlimited markers, polyons and polylines
 * Editable map height and width
@@ -45,7 +45,24 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Maps are rendered by the latest Google maps API v3
 * Autocomplete for address
 
-= Pro Version =
+= Google maps PRO Version =
+* Unlimited maps
+* Unlimited markers, polyons and polylines
+* Editable map height and width
+* Get coordinates by address
+* Responsive maps
+* Easy to use
+* UTF-8 support
+* Support for localization
+* Google maps types: roadmap, terrain, satellite and hybrid
+* Animations
+* Visitor based coordinates
+* Polylang and another plugins support
+* Wordpress core functionality
+* Street view supported
+* Maps are rendered by the latest Google maps API v3
+* Autocomplete for address
+
 * Filter module
 * Directions module
 * Markers list module
@@ -61,11 +78,14 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Marker description supports Wordpress text editor
 * Markers clusterer - show count if there are too many markers on same location
 
+= Technical support =
+If you have any problems or ideas, contact us at [info@veebiekspert.ee](mailto:info@veebiekspert.ee)
+
 = Translations =
 We are very thankful if you help us to translate plugin to your language.
 
 * English - default
-* Estoninan
+* Estonian
 
 == Changelog ==
 
