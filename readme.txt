@@ -62,7 +62,6 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Street view supported
 * Maps are rendered by the latest Google maps API v3
 * Autocomplete for address
-
 * Filter module
 * Directions module
 * Markers list module
@@ -79,7 +78,10 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Markers clusterer - show count if there are too many markers on same location
 
 = Technical support =
-If you have any problems or ideas, contact us at [info@veebiekspert.ee](mailto:info@veebiekspert.ee)
+If you have any problems, contact us at [info@veebiekspert.ee](mailto:info@veebiekspert.ee)
+
+= Google Maps inspiration =
+If you have any ideas to make plugin better, contact us at [info@veebiekspert.ee](mailto:info@veebiekspert.ee)
 
 = Translations =
 We are very thankful if you help us to translate plugin to your language.
