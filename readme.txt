@@ -7,17 +7,17 @@ Tested up to: 4.2
 Stable tag: trunk
 License: GPLv2
 
-Very powerful plugin for creating Google Maps. Easy to use and no programmer skills required. There is no limit for maps and markers count.
+Google Maps plugin is very powerful for creating maps in seconds. Easy to use and no programmer skills required. There is no limit for maps and markers count.
 
 == Description ==
 
 Very powerful plugin for creating Google Maps. Add maps with your customized settings to post and pages with shortcode or special editor tool. Show or hide elements with custom parameters. Get directions from any address to your destinations.
 
-Plugin is built on wordpress core functionality. Maps, markers, polygons and polylines are based custom post type and categories are made with custom taxonomy. Images are associated with Wordpress media library.
+Google Maps plugin is built on wordpress core functionality. Maps, markers, polygons and polylines are based custom post type and categories are made with custom taxonomy. Images are associated with Wordpress media library.
 
-Themes with widgets support are able to use plugin widgets: filter, elements list and directions.
+Themes with widgets support are able to use plugin widgets: filter widget, elements list widget and directions widget.
 
-Developers can use all features on their own source code and make extra functionality. Plugin is connectable with another plugins like Polylang, Taxonomy Terms Order, Advanced Custom Fields and so on.
+Developers can use all features on their own source code and make extra functionality to google maps. Plugin is connectable with another plugins like Polylang, Taxonomy Terms Order, Advanced Custom Fields and so on.
 
 In PRO version is also support for widgets and a lot of more features.
 
