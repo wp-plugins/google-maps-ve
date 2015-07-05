@@ -159,7 +159,7 @@ class Google_Maps_Ve_View
                 </table>
             </div>
             <div id="marker_infowindow-tab" class="tabs-panel" style="display: none;">
-                <div class="ve-gmap-pro-feature-info"><a href="http://wordpress.veebiekspert.ee/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
+                <div class="ve-gmap-pro-feature-info"><a href="http://www.googlemapswordpress.com/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
                 <table class="add-marker-table ve-gmap-table">
                     <tr>
                         <th><?php _e('InfoWindow', GOOGLE_MAPS_VE_TD); ?></th>
@@ -211,7 +211,7 @@ class Google_Maps_Ve_View
                 </table>
             </div>
             <div id="marker_icon-tab" class="tabs-panel" style="display: none;">
-                <div class="ve-gmap-pro-feature-info"><a href="http://wordpress.veebiekspert.ee/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
+                <div class="ve-gmap-pro-feature-info"><a href="http://www.googlemapswordpress.com/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
                 <table class="ve-gmap-table" style="width: 100%;">
                     <tr>
                         <th width="120px"><label><?php _e('Marker icon url', GOOGLE_MAPS_VE_TD); ?></label></th>
@@ -221,7 +221,7 @@ class Google_Maps_Ve_View
                 </table>
             </div>
             <div id="marker_parameters-tab" class="tabs-panel" style="display: none;">
-                <div class="ve-gmap-pro-feature-info"><a href="http://wordpress.veebiekspert.ee/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
+                <div class="ve-gmap-pro-feature-info"><a href="http://www.googlemapswordpress.com/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
                 <ul class="marker-parameters-tab-ul">
                 <?php 
                 wp_terms_checklist($post->ID, array(
@@ -720,7 +720,7 @@ class Google_Maps_Ve_View
                 </table>
             </div>
             <div id="marker_infowindow-tab" class="tabs-panel" style="display: none;">
-                <div class="ve-gmap-pro-feature-info"><a href="http://wordpress.veebiekspert.ee/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
+                <div class="ve-gmap-pro-feature-info"><a href="http://www.googlemapswordpress.com/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
                 <table class="add-marker-table ve-gmap-table">
                     <tr>
                         <th><?php _e('InfoWindow', GOOGLE_MAPS_VE_TD); ?></th>
@@ -772,7 +772,7 @@ class Google_Maps_Ve_View
                 </table>
             </div>
             <div id="marker_icon-tab" class="tabs-panel" style="display: none;">
-                <div class="ve-gmap-pro-feature-info"><a href="http://wordpress.veebiekspert.ee/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
+                <div class="ve-gmap-pro-feature-info"><a href="http://www.googlemapswordpress.com/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
                 <table class="ve-gmap-table" style="width: 100%;">
                     <tr>
                         <th width="120px"><label><?php _e('Marker icon url', GOOGLE_MAPS_VE_TD); ?></label></th>
@@ -782,7 +782,7 @@ class Google_Maps_Ve_View
                 </table>
             </div>
             <div id="marker_parameters-tab" class="tabs-panel" style="display: none;">
-                <div class="ve-gmap-pro-feature-info"><a href="http://wordpress.veebiekspert.ee/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
+                <div class="ve-gmap-pro-feature-info"><a href="http://www.googlemapswordpress.com/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
                 <ul class="marker-parameters-tab-ul">
                 <?php 
                 wp_terms_checklist($post->ID, array(
@@ -1033,7 +1033,7 @@ class Google_Maps_Ve_View
                 </table>
             </div>
             <div id="marker_infowindow-tab" class="tabs-panel" style="display: none;">
-                <div class="ve-gmap-pro-feature-info"><a href="http://wordpress.veebiekspert.ee/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
+                <div class="ve-gmap-pro-feature-info"><a href="http://www.googlemapswordpress.com/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
                 <table class="add-marker-table ve-gmap-table">
                     <tr>
                         <th><?php _e('InfoWindow', GOOGLE_MAPS_VE_TD); ?></th>
@@ -1085,7 +1085,7 @@ class Google_Maps_Ve_View
                 </table>
             </div>
             <div id="marker_parameters-tab" class="tabs-panel" style="display: none;">
-                <div class="ve-gmap-pro-feature-info"><a href="http://wordpress.veebiekspert.ee/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
+                <div class="ve-gmap-pro-feature-info"><a href="http://www.googlemapswordpress.com/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
                 <ul class="marker-parameters-tab-ul">
                 <?php 
                 wp_terms_checklist($post->ID, array(
@@ -1474,7 +1474,7 @@ class Google_Maps_Ve_View
                 </table>
             </div>
             <div id="marker_infowindow-tab" class="tabs-panel" style="display: none;">
-                <div class="ve-gmap-pro-feature-info"><a href="http://wordpress.veebiekspert.ee/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
+                <div class="ve-gmap-pro-feature-info"><a href="http://www.googlemapswordpress.com/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
                 <table class="add-marker-table ve-gmap-table">
                     <tr>
                         <th><?php _e('InfoWindow', GOOGLE_MAPS_VE_TD); ?></th>
@@ -1526,7 +1526,7 @@ class Google_Maps_Ve_View
                 </table>
             </div>
             <div id="marker_parameters-tab" class="tabs-panel" style="display: none;">
-                <div class="ve-gmap-pro-feature-info"><a href="http://wordpress.veebiekspert.ee/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
+                <div class="ve-gmap-pro-feature-info"><a href="http://www.googlemapswordpress.com/buy-pro-version/" title="" target="_blank"><?php _e('Get PRO version for this feature', GOOGLE_MAPS_VE_TD); ?></a></div>
                 <ul class="marker-parameters-tab-ul">
                 <?php 
                 wp_terms_checklist($post->ID, array(

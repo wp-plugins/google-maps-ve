@@ -1,6 +1,6 @@
 === Google Maps VE ===
 Contributors: Veebiekspert
-Donate link: http://wordpress.veebiekspert.ee
+Donate link: http://www.googlemapswordpress.com
 Tags: gmaps, custom google maps, clusterer, wp maps, wp google, google maps, maps, map, map markers, google, google map, easy map, store locator, map plugin, directions, map directions, google map plugin, polygons, polylines, streetview, location, marker, latitude, longitude, map widget, widget
 Requires at least: 3.5
 Tested up to: 4.2
@@ -23,7 +23,7 @@ In PRO version is also support for widgets and a lot of more features.
 
 This is revolution in Google Maps in Wordpress.
 
-See detailed overview about [Google Maps Ve PRO Version](http://wordpress.veebiekspert.ee)
+See detailed overview about [Google Maps Ve PRO Version](http://www.googlemapswordpress.com)
 
 https://www.youtube.com/watch?v=HfMk4M52P-4
 
@@ -115,7 +115,7 @@ Added html support for marker description field
 
 = How do I get PRO version? =
 
-Visit http://wordpress.veebiekspert.ee - Free updates forever.
+Visit http://www.googlemapswordpress.com - Free updates forever.
 
 = How can I add multilanguage support? =
 
@@ -182,7 +182,7 @@ You can find a lot of icons at url: http://mapicons.nicolasmollet.com/
 == Installation ==
 
 = Download and install =
-Login to wp-admin and click Plugins -> Add new. Search by "Google Maps VE" keyword and install it. [Click here to download Google Maps Ve PRO Version](http://wordpress.veebiekspert.ee)
+Login to wp-admin and click Plugins -> Add new. Search by "Google Maps VE" keyword and install it. [Click here to download Google Maps Ve PRO Version](http://www.googlemapswordpress.com)
 
 = Create your first map =
 Click on Google Map -> Add new map from left menu. Insert map title and confiugure by your needs. Save map and then you can add markers, polygons and polylines to created map.
