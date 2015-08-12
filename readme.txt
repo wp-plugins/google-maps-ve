@@ -1,7 +1,7 @@
 === Google Maps VE ===
 Contributors: Veebiekspert
 Donate link: http://www.googlemapswordpress.com
-Tags: gmaps, custom google maps, clusterer, wp maps, wp google, google maps, maps, map, map markers, google, google map, easy map, store locator, map plugin, directions, map directions, google map plugin, polygons, polylines, streetview, location, marker, latitude, longitude, map widget, widget
+Tags: gmaps, custom google maps, clusterer, wp maps, wp google, google maps, maps, map, map markers, google, google map, easy map, store locator, map plugin, directions, map directions, google map plugin, polygons, polylines, streetview, location, marker, latitude, longitude, map widget, widget, map style
 Requires at least: 3.5
 Tested up to: 4.2
 Stable tag: trunk
@@ -19,7 +19,7 @@ Themes with widgets support are able to use plugin widgets: filter widget, eleme
 
 Developers can use all features on their own source code and make extra functionality to google maps. Plugin is connectable with another plugins like Polylang, Taxonomy Terms Order, Advanced Custom Fields and so on.
 
-In PRO version is also support for widgets and a lot of more features.
+In PRO version is also support for widgets, map styles, custom marker icon and a lot of more features.
 
 This is revolution in Google Maps in Wordpress.
 
@@ -76,6 +76,7 @@ https://www.youtube.com/watch?v=HfMk4M52P-4
 * Duplicate maps
 * Marker description supports Wordpress text editor
 * Markers clusterer - show count if there are too many markers on same location
+* Map styles selection
 
 = Technical support =
 If you have any problems, contact us at [info@veebiekspert.ee](mailto:info@veebiekspert.ee)
@@ -102,6 +103,9 @@ We are very thankful if you help us to translate plugin to your language.
 * Added html support for marker description field
 * Marker description field supports Wordpress text editor in PRO version
 * Markers clusterer in PRO version
+
+= 1.0.3 =
+* Added map styles to PRO version
 
 == Upgrade Notice ==
 
